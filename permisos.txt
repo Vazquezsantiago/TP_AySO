@@ -1,0 +1,20 @@
+total 76
+drwxr-x--- 12 vagrant vagrant 4096 Oct 13 15:07 .
+drwxr-xr-x  6 root    root    4096 Oct 20  2025 ..
+-rw-------  1 vagrant vagrant 4578 Oct 20  2025 .bash_history
+-rw-r--r--  1 vagrant vagrant  220 Oct  2  2025 .bash_logout
+-rw-r--r--  1 vagrant vagrant 3771 Oct  2  2025 .bashrc
+drwx------  2 vagrant vagrant 4096 Oct 16  2025 .cache
+-rw-rw-r--  1 vagrant vagrant   71 Oct 16  2025 .gitconfig
+-rw-------  1 vagrant vagrant   20 Oct 13 15:07 .lesshst
+drwxrwxr-x  3 vagrant vagrant 4096 Oct 16  2025 .local
+-rw-r--r--  1 vagrant vagrant  807 Oct  2  2025 .profile
+drwx------  3 vagrant vagrant 4096 Oct 16  2025 .ssh
+drwxrwxr-x  4 vagrant vagrant 4096 Oct 20  2025 Ejercicio_D
+drwxrwxr-x  2 vagrant vagrant 4096 Oct 20  2025 Punto_E
+drwxrwxr-x  2 vagrant vagrant 4096 Oct 20  2025 Punto_F
+drwxrwxr-x  6 vagrant vagrant 4096 Oct 20  2025 Recu_TP_AySO
+drwxrwxrwx  1 vagrant vagrant 4096 Oct  9 13:41 carpeta_compartida
+drwxrwxr-x  3 vagrant vagrant 4096 Oct 13 15:02 repogit
+drwx------  3 vagrant vagrant 4096 Oct 16  2025 snap
+ls -la /home/vagrant > permisos.txt
