@@ -1,0 +1,60 @@
+"
+cd TP_AySO/
+grep -i Vagrant /etc/shadow 
+sudo grep -i Vagrant /etc/shadow 
+sudo grep Vagrant /etc/shadow 
+sudo grep VAGRANT /etc/shadow 
+sudo grep -i Vagrant /etc/shadow 
+grep '^vagrant:' /etc/shadow | awk -F: '{print $2}' > pass_usuario.txt
+sudo grep '^vagrant:' /etc/shadow | awk -F: '{print $2}' > pass_usuario.txt
+whoami
+echo "Usuario=$(whoami)" >> pass_usuario.txt
+git commit
+git add
+git add .
+git commit
+git status
+git push
+ls -la /home/vagrant > permisos.txt
+echo 'ls -la /home/vagrant > permisos.txt' >> permisos.txt
+git add.
+git add .
+git coomit -m "AAD: Añadiendo archivos de permisos"
+git coommit -m "AAD: Añadiendo archivos de permisos"
+git commit -m "AAD: Añadiendo archivos de permisos"
+grep -v '^root:' /etc/passwd | head -n 10 > lista_ordenada
+ls lista_ordenada
+grep lista_ordenada
+cat lista_ordenada
+grep -v '^root:' /etc/passwd | head -n 10 > lista_ordenada
+cat lista_ordenada
+git add .
+git commit -m "AAD: lista de usuarios ordenada"
+git clone git@github.com:Vazquezsantiago/TP_AySO.git
+git add .
+cd repogit
+git add .
+cd TP_AySO/
+git add .
+git commit -m "AAD: lista de usuarios ordenada"
+
+cat << EOF >> README.md
+Alumno: Santiago Vazquez
+División: 124
+Turno: Mañana
+EOF
+
+cat README.md 
+nano README.md 
+cat README.md 
+git add .
+git commit -m "docs: agregar datos del alumno"
+mkdir -p ~/universidad/alumnos/{legajos1,legajos2,legajos3,legajos4,legajos5,legajos6,legajos7,legajos8,legajos9,legajos10,legajos11,legajos12,legajos13,legajos14,legajos15} ~/universidad/profesores/{legajos1,legajos2,legajos3,legajos4,legajos5}
+tree ~/universidad
+git add .
+git commit -m "AAD: estructura de directorios punto8"
+nano script_dir.sh
+cat script_dir.sh
+git add .
+git commit -m "AAD: añadiendo script"
+history -a
